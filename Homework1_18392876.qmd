@@ -1,0 +1,30 @@
+---
+title: "Homework 1"
+author: "Noura Abbassene 18392876"
+format: 
+  html:
+    embed-resources: true
+execute: 
+  echo: false
+---
+
+## Dataset
+
+This homework will utilise the **iris** dataset from R. This data set describes various aspects of iris flowers and provides specific measurements for things like *Petal Length* and *Petal Width*. Below is the specifications of the data set.
+```{r}
+print(paste("Number of rows:", nrow(iris), " Number of columns:", length(iris)))
+```
+
+
+## Plot
+
+A scatterplot of the **iris** data set is produced below. Based on this plot we are able to see if there are any relationships between any two variables in the format of negative and positive correlation. 
+
+Based on the plot below we can see that there is a very clear positive correlation between petal width and petal length. This is expected as a flower with a longer petal is also expected to have a petal that is wider. Petal length and sepal width also have a positive correlation, however, there seems to be two distinct groups in the plot. This clustering could be due to the separate species found in the data set.
+
+```{r}
+#| label: fig-iris
+#| fig-cap: "scatterplot of the `iris` dataset"
+plot(iris)
+```
+
