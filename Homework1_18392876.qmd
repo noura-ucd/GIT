@@ -1,6 +1,6 @@
 ---
 title: "Homework 1"
-author: "Noura Abbassene 18392876"
+author: "Noura A"
 format: 
   html:
     embed-resources: true
@@ -28,3 +28,6 @@ Based on the plot below we can see that there is a very clear positive correlati
 plot(iris)
 ```
 
+## GIT HUB
+
+This project is then uploaded to GitHub for version control. With at least two changes committed.
